@@ -79,7 +79,7 @@ const api = {
   },
   userProjects: {
     list: '/user/project',
-  },
+  }, 
   task: {
     list: '/task',
     add: '/task/add',
