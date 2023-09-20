@@ -8,14 +8,12 @@ import {AuthInit} from './pages/auth'
 const App = () => {
   return (
     <Suspense fallback={<LayoutSplashScreen />}>
-      <I18nProvider>
         <LayoutProvider>
           <AuthInit>
             <Outlet />
             <MasterInit />
           </AuthInit>
         </LayoutProvider>
-      </I18nProvider>
     </Suspense>
   )
 }

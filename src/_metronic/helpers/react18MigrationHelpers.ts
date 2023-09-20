@@ -2,7 +2,7 @@ import {ReactNode} from 'react'
 import {MenuComponent} from '../assets/ts/components'
 
 type WithChildren = {
-  children?: ReactNode
+  children?: any
 }
 
 const reInitMenu = () => {

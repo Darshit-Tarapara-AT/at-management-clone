@@ -29,7 +29,7 @@ export interface InitialAttendanceState {
     }[]
     calenderDetails: AttendanceCalendarResponseFields[]
     analysisData: MonthlyAnalysisResponsePayload[]
-    attendanceMontlyData:MonthlyAnalysisResponsePayload[]
+    attendanceMonthlyData:MonthlyAnalysisResponsePayload[]
     monthlyLeaveData:MonthlyAnalysisResponsePayload[]
     isAttendanceDataFetched: boolean
     error: string

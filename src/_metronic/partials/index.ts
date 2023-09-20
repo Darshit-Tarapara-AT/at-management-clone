@@ -24,7 +24,7 @@ export * from './content/code-highlight/CodeBlock'
 export * from './content/portal/Portal'
 
 // modals
-export * from './modals/create-app-stepper/CreateAppModal'
+// export * from './modals/create-app-stepper/CreateAppModal'
 export * from './modals/select-location/SelectLocationModal'
 export * from './modals/invite-users/InviteUsers'
 export * from './modals/upgrade-plan/UpgradePlan'
