@@ -50,7 +50,7 @@ const salaryRelateFields = ["Official Working Days", "Actual Present Days", "Tot
 const MyAttendance = () => {
   const dispatch = useDispatch()
   const {userId} = useParams()
-  const {calenderDetails, isAttendanceDataFetched, analysisData,attendanceMontlyData,monthlyLeaveData: leaveMontlyData, attendanceCalendarBreadcrumbs} = useSelector(
+  const {calenderDetails, isAttendanceDataFetched, analysisData,attendanceMonthlyData,monthlyLeaveData: leaveMonthlyData, attendanceCalendarBreadcrumbs} = useSelector(
     (state: IRootState) => state.AttendanceStateData
   )
   const navigator = useNavigate()
@@ -91,39 +91,12 @@ const MyAttendance = () => {
     navigator(path)
   }
 
-  const leftSideData = attendanceMontlyData
-    ?.filter((item, index) => salaryRelateFields?.includes(item.label))
-    ?.map((item) => {
-      if (item?.label?.toLocaleLowerCase()?.includes(Strings.salary.toLocaleLowerCase())) {
-        return {
-          ...item,
-          value: `${item.value} %`,
-        }
-      }
-      return item
-    })
-  const rightSideData = leaveMontlyData?.filter((item, index) => {
-    return !salaryRelateFields?.includes(item.label)
-  }).map((item) => {
-    if(item.label === "Late Entry Time") {
-      return {
-        ...item,
-        label: Strings.lateEntry
-      }
-    }
-    if(item.label === "Paid Leave") {
-      return {
-        ...item,
-        label: Strings.leave
-      }
-    }
-    return item
-  })
+
 
   return (
     <>
       <PageTitle breadcrumbs={attendanceCalendarBreadcrumbs}>{Strings.attendance}</PageTitle>
-      {(isAttendanceDataFetched || calendar?.length === 0)   ? (
+      {isAttendanceDataFetched || calendar?.length === 0 ? (
         <Loader />
       ) : (
         <>
@@ -144,8 +117,8 @@ const MyAttendance = () => {
                 {Strings.monthlyAnalysis}
               </h1>
             </div>
-            <MonthlyAnalysis data={leftSideData} />
-            <MonthlyAnalysis data={rightSideData} />
+            <MonthlyAnalysis data={attendanceMonthlyData} />
+            <MonthlyAnalysis data={leaveMonthlyData} />
           </div>
         </>
       )}

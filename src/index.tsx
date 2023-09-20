@@ -47,11 +47,9 @@ if(container) {
       <StyletronProvider value={engine}>
         <BaseProvider theme={LightTheme}>
           <QueryClientProvider client={queryClient}>
-            <MetronicI18nProvider>
               <AuthProvider>
                 <AppRoutes />
               </AuthProvider>
-            </MetronicI18nProvider>
           </QueryClientProvider>
         </BaseProvider>
       </StyletronProvider>

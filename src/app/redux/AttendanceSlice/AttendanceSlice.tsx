@@ -44,7 +44,7 @@ const initialState: InitialAttendanceState = {
   limit: constant.page.size,
   attendanceCalendarBreadcrumbs: userAttendanceBreadcrumbs,
   error: "",
-  attendanceMontlyData: [],
+  attendanceMonthlyData: [],
   monthlyLeaveData: [],
   previousPageUrl: null,
   nextPageUrl: null,
@@ -76,16 +76,16 @@ const slice = createSlice({
     state.isAttendanceDataFetched = true
     })
     .addCase(getUserAttendanceCalendarDataAction.fulfilled, (state, {payload} ) => {
-      const response  = payload as  {
-        data: AttendanceCalendarResponseFields[],
+      const response = payload as {
+        data: AttendanceCalendarResponseFields[]
         analysisData: MonthlyAnalysisResponsePayload[]
         attendanceMontlyData: MonthlyAnalysisResponsePayload[]
-        leaveMontlyData:MonthlyAnalysisResponsePayload[]
+        leaveMontlyData: MonthlyAnalysisResponsePayload[]
       }
       if(response?.data?.length > 0) {
         state.calenderDetails = response?.data
         state.analysisData = response?.analysisData
-        state.attendanceMontlyData = response?.attendanceMontlyData
+        state.attendanceMonthlyData = response?.attendanceMontlyData
         state.monthlyLeaveData = response?.leaveMontlyData
       }
       state.isAttendanceDataFetched = false
