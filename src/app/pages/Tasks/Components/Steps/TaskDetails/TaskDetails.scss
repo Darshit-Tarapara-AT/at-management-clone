@@ -1,0 +1,48 @@
+.date-picker {
+  position: relative;
+
+  &::after {
+    content: '';
+    background: url('../../../../../../_metronic/assets/image/calender.svg');
+    background-repeat: no-repeat;
+    width: 30px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    top: 7px;
+    height: 40px;
+    z-index: 3;
+  }
+}
+.fv-help-block {
+  margin: 10px 0px;
+}
+.file-input-wrapper {
+  position: relative;
+}
+
+.pencil-icon-container {
+  position: absolute;
+  top: -4px;
+  right: -6px;
+}
+.remove-image-icon-container {
+  position: absolute;
+  bottom: 0px;
+  right: 80%;
+}
+.lead-select-date-container {
+  box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2) !important;
+  padding: 10px;
+  margin-left: -10px;
+}
+.end-date-input {
+  &:disabled {
+    background: #dadadadd;
+    cursor: not-allowed;
+    pointer-events: auto;
+  }
+}
+.action-btn {
+  margin: 0px 5px;
+}

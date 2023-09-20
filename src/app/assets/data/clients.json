@@ -1,0 +1,195 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Elma Herring",
+      "email": "elmaherring@unq.com",
+      "company_name": "XYZ Company",
+      "status": "confirmed",
+      "website": "",
+      "phone": "",
+      "mobile": "",
+      "skype_id": "",
+      "linkedin_url": "",
+      "lead_status": "",
+      "lead_select_date": "",
+      "last_contact_date": "",
+      "note": "",
+      "address": "",
+      "area": "",
+      "country": "",
+      "state": "GJ",
+      "city": "",
+      "postal_code": "",
+      "added_by": "",
+      "first_contact_source": "",
+      "comments": "",
+      "added_date": "",
+      "lead_type": "company"
+    },
+    {
+      "id": 2,
+      "name": "Knapp Berry",
+      "email": "knappberry@unq.com",
+      "company_name": "test Company",
+      "status": "confirmed",
+      "website": "",
+      "phone": "",
+      "mobile": "",
+      "skype_id": "",
+      "linkedin_url": "",
+      "lead_status": "",
+      "lead_select_date": "",
+      "note": "",
+      "address": "",
+      "area": "",
+      "country": "",
+      "state": "GJ",
+      "city": "",
+      "postal_code": "",
+      "added_by": "",
+      "first_contact_source": "",
+      "comments": "",
+      "added_date": "",
+      "lead_type": "company",
+      "last_contact_date": ""
+    },
+    {
+      "id": 3,
+      "name": "Bell Burgess",
+      "email": "bellburgess@unq.com",
+      "company_name": "unit Company",
+      "status": "blocked",
+      "website": "",
+      "phone": "",
+      "mobile": "",
+      "skype_id": "",
+      "linkedin_url": "",
+      "lead_status": "",
+      "lead_select_date": "",
+      "note": "",
+      "address": "",
+      "area": "",
+      "country": "",
+      "state": "GJ",
+      "city": "",
+      "postal_code": "",
+      "added_by": "",
+      "first_contact_source": "",
+      "comments": "",
+      "added_date": "",
+      "lead_type": "company",
+      "last_contact_date": ""
+    },
+    {
+      "id": 4,
+      "name": "Hobbs Ferrell",
+      "email": "hobbsferrell@unq.com",
+      "company_name": "Apple Company",
+      "status": "blocked",
+      "website": "",
+      "phone": "",
+      "mobile": "",
+      "skype_id": "",
+      "linkedin_url": "",
+      "lead_status": "",
+      "lead_select_date": "",
+      "note": "",
+      "address": "",
+      "area": "",
+      "country": "",
+      "state": "GJ",
+      "city": "",
+      "postal_code": "",
+      "added_by": "",
+      "first_contact_source": "",
+      "comments": "",
+      "added_date": "",
+      "lead_type": "company",
+      "last_contact_date": ""
+    },
+    {
+      "id": 5,
+      "name": "Marylou Medina",
+      "email": "maryloumedina@unq.com",
+      "company_name": "Tech Company",
+      "status": "confirmed",
+      "website": "",
+      "phone": "",
+      "mobile": "",
+      "skype_id": "",
+      "linkedin_url": "",
+      "lead_status": "",
+      "lead_select_date": "",
+      "note": "",
+      "address": "",
+      "area": "",
+      "country": "",
+      "state": "GJ",
+      "city": "",
+      "postal_code": "",
+      "added_by": "",
+      "first_contact_source": "",
+      "comments": "",
+      "added_date": "",
+      "lead_type": "company",
+      "last_contact_date": ""
+    }
+  ],
+  "client.account": [
+    {
+      "at": "AT"
+    },
+    {
+      "akash": "Akash"
+    },
+    {
+      "bhavik": "Bhavik"
+    },
+    {
+      "jitendra": "Jitendra"
+    }
+  ],
+  "client.status": [
+    {
+      "at": "AT"
+    },
+    {
+      "akash": "Akash"
+    },
+    {
+      "bhavik": "Bhavik"
+    },
+    {
+      "jitendra": "Jitendra"
+    }
+  ],
+  "client.position": [
+    {
+      "react": "React"
+    },
+    {
+      "wordPress": "WordPress"
+    },
+    {
+      "seo": "SEO"
+    },
+    {
+      "laravel": "Laravel"
+    }
+  ],
+  "client.modeOfContact": [
+    {
+      "email": "Email"
+    },
+    {
+      "linkedin": "Linkedin"
+    },
+    {
+      "skype": "Skype"
+    },
+    {
+      "directContact": "Direct contact"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "leaves.status": [
+        {
+            "pending": "Pending"
+        },
+        {
+            "confirmed": "Confirmed"
+        },
+        {
+            "rejected": "Rejected"
+        }
+    ],
+    "leaves.type": [
+        {
+            "informed": "Informed"
+        },
+        {
+            "uninformed": "Uninformed"
+        },
+        {
+            "sickLeave": "Sick Leave"
+        }
+    ]
+}

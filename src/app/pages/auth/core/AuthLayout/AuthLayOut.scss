@@ -1,0 +1,20 @@
+.auth-layout {
+  height: 100vh !important;
+  overflow: hidden;
+  background-image: url('../../../../assets/image/sign-in-background-img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .navigation-btn {
+    cursor: pointer;
+    color:#009ef7 !important;
+  }
+  
+}
+
+@media screen and (max-width: 995px) {
+  .auth-layout {
+    overflow-y: scroll;
+    padding: 0px;
+    margin: 0px;
+  }
+}

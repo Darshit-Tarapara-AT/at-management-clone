@@ -1,0 +1,40 @@
+.date-of-joining-date-picker {
+    position: relative;
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: block;
+        top: 0;
+        z-index: 3;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: transparent;
+        text-transform: uppercase;
+    }
+}
+
+.birthDate-date-picker, .next-increment-date-picker, .paid-leave-date-picker{
+    position: relative;
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        display: block;
+        top: 0;
+        z-index: 3;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background: transparent;
+        text-transform: uppercase;
+    }
+}
+
+.date-picker-container {
+    position: relative;
+    .calender-icon {
+        position: absolute;
+        top: 12px;
+        font-size: 18px;
+        right: 20px;
+    }
+    input[type="date"] {
+        text-transform: uppercase;
+      }
+}

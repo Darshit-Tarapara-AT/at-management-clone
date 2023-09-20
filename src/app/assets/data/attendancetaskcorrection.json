@@ -1,0 +1,68 @@
+{
+    "attendancetaskcorrection" : [
+        {
+            "date": "24th oct 2023",
+            "start_time": "10 AM",
+            "end_time": "12 AM",
+            "status": "Pending"
+          },
+          {
+            "date": "24th oct 2023",
+            "start_time": "10 AM",
+            "end_time": "12 AM",
+            "status": "Completed"
+          },
+          {
+            "date": "24th oct 2023",
+            "start_time": "10 AM ",
+            "end_time": "12 AM",
+            "status": "Rejected"
+          }
+    ],
+    "attendance.holiday" : [
+      {
+          "id": "1",
+          "name": "Diwali",
+          "day": "Wednesday",
+          "date": "24th oct 2023"
+        },
+        {
+          "id": "2",
+          "name": "Holi",
+          "day": "Saturday",
+          "date": "25th aug 2023"
+        }
+  ],
+  "attendance.correction" : [
+    {
+        "id": "1",
+        "forDate": "24th Apr 2023",
+        "from": "Naruto",
+        "status": "Confirmed"
+      },
+      {
+        "id": "2",
+        "from": "luffy",
+        "forDate": "25th aug 2023",
+        "status": "Pending"
+      },
+      {
+        "id": "4",
+        "from": "Light",
+        "forDate": "26th aug 2023",
+        "status": "Rejected"
+      }
+],
+  "attendance.masterList" : [
+    {
+        "id": "1",
+        "user": "Harsh",
+        "percentage": "100%"
+      },
+      {
+        "id": "2",
+        "user": "Darshit Tarapara",
+        "percentage": "100%"
+      }
+]
+}

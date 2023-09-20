@@ -1,0 +1,230 @@
+/* styles.css (or your global CSS file) */
+
+@import url('https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700');
+
+html,
+body {
+  font-family: Inter, Helvetica, 'sans-serif';
+  font-weight: 400;
+
+}
+.list-contain-card {
+  padding: 10px 20px;
+}
+.add-boarder-after-a-total-minutes {
+  position: relative;
+}
+.add-boarder-after-a-total-minutes::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  background: black;
+  border: 1px solid black;
+  width: 100%;
+  height: 10px;
+
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.button-icon {
+  margin:0px 5px;
+  margin-top: 2px;
+}
+input[type='date']::-webkit-calendar-picker-indicator {
+  cursor: pointer !important;
+  pointer-events: auto !important;
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #ccc transparent;
+}
+.pop-up-confirm {
+  z-index: 5;
+}
+input[type='date']::after {
+  cursor: pointer !important;
+  pointer-events: auto !important;
+}
+input[type='date'] {
+  position: relative;
+}
+input::placeholder {
+  color: #b5b5c3;
+}
+
+textarea::placeholder {
+  color: #5e6278;
+}
+.le:focus {
+  border-color: transparent !important;
+}
+.lg:focus {
+  border-color: transparent !important;
+}
+.lf:focus {
+  border-color: transparent !important;
+}
+
+select:placeholder {
+  color: #5e6278;
+}
+
+.second-guardian-container {
+  margin-left: -30px;
+}
+.guardian-title {
+  margin-left: -30px;
+}
+.btn:disabled {
+  cursor: not-allowed !important;
+  pointer-events: auto;
+}
+
+.next-pagination-btn {
+  &:disabled {
+    pointer-events: auto;
+    cursor: not-allowed !important;
+    background-color: #ebebe4 !important;
+    color: #a49c9c;
+  }
+}
+.form-check-custom.form-check-success .form-check-input:checked {
+  background-color: #50cd89 !important;
+}
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+input[type='checkbox'] {
+  cursor: pointer;
+}
+label {
+  cursor: pointer;
+}
+input[type='radio'] {
+  cursor: pointer;
+}
+.multi-select-input {
+  height: 40px !important;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.dropdown-container {
+  width: 100%;
+  border: 0px !important;
+  background: transparent !important;
+
+  &:focus {
+    border: 0px !important;
+    outline: none !important;
+  }
+}
+
+.guardian-title {
+  margin-left: -30px;
+}
+/* Dark Theme CSS Start Here */
+html[data-theme='dark'] .dp:disabled {
+  color: #474761;
+}
+html[data-theme='dark'] .cc {
+  color: #92929f;
+}
+
+html[data-theme='dark'] div[data-baseweb='base-input'],
+html[data-theme='dark'] div[data-baseweb='textarea'],
+html[data-theme='dark'] div[data-baseweb='input'] {
+  background-color: #1b1b29;
+  color: #92929f;
+}
+html[data-theme='dark'] div[data-baseweb='popover'],
+html[data-theme='dark'] div[data-baseweb='popover'] ul {
+  background-color: #1e1e2d;
+}
+html[data-theme='dark'] div[data-baseweb='popover'] .du,
+html[data-theme='dark'] div[data-baseweb='popover'] > div {
+  background-color: transparent;
+  color: #92929f !important;
+}
+html[data-theme='dark']
+  div[data-baseweb='popover']
+  div[aria-roledescription='Calendar month']
+  .b9:hover {
+  color: #000;
+}
+html[data-theme='dark'] div[data-baseweb='popover'] svg {
+
+  color: #92929f;
+}
+
+div[data-baseweb='popover']{
+  z-index: 9999;
+}
+
+html[data-theme='dark'] div[data-baseweb='popover'] div[aria-roledescription='Calendar month'] .b9 {
+  color: #fff;
+}
+html[data-theme='dark'] div[data-baseweb='popover'] .f8 {
+  background-color: transparent;
+  width: 100%;
+}
+html[data-theme='dark'] div[data-baseweb='select'] > div.dm {
+  background-color: #2b2b40;
+  border-color: transparent;
+}
+html[data-theme='dark'] ul li,
+html[data-theme='dark'] ul li div.e8,
+html[data-theme='dark'] div[data-baseweb='popover'] .ba,
+html[data-theme='dark'] div[data-baseweb='popover'] .eo {
+  background-color: transparent;
+  font-weight: normal;
+}
+html[data-theme='dark'] .card-toolbar input {
+  background: #1b1b29 !important;
+}
+html[data-theme='dark'] .card-toolbar input:focus,
+html[data-theme='dark'] div[data-baseweb='select'] .f4 {
+  background: #282840 !important;
+  border-color: #282840;
+  color: #92929f;
+}
+
+/* Dark Theme CSS End Here */
+/* Menu Design CSS End Here */
+html body .fb,
+html body input,
+html body button,
+html body select {
+  outline: none;
+}
+.menu.menu-sub.menu-sub-dropdown.menu-column.menu-rounded.menu-state-bg.menu-state-primary {
+  width: max-content !important;
+}
+/* Menu Design CSS End Here */
+select,
+input[type='checkbox'],
+input[type='radio'],
+input[type='date']::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+}
+html[data-theme='dark'] input[type='date']::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+.error-container {
+  padding: 90px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

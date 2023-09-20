@@ -1,0 +1,278 @@
+{
+  "policy": {
+    "label": ["Previous", 1, 2, 3, "Next"],
+    "page_1": [
+      {
+        "id": 1,
+        "title": "Mobile Use Policy",
+        "description": "We insist to not use your mobile during company hours and in company premises. So keep your cell phone silent or switch off."
+      },
+      {
+        "id": 2,
+        "title": "Office Property Policy ",
+        "description": "Also please close the desktop screen while not using it (Eg., During break time) to save energy.If you found any property damage, you can inform the management regarding it"
+      },
+      {
+        "id": 3,
+        "title": "Environment Policy",
+        "description": "Great place environment leads to great self-development"
+      },
+      {
+        "id": 4,
+        "title": "Developing Standards",
+        "description": "We are taking responsibility for Quality by providing “Best In Class” development and service.We deliver customer satisfaction by understanding our customer’s needs."
+      },
+      {
+        "id": 5,
+        "title": "Policy for Use of Software",
+        "description": "This policy provides guidelines for the use of software for all employees within the firm to ensure that all software use is appropriate. Under this policy, the use of all open source and freeware software will be conducted under the same procedures outlined for commercial software"
+      }
+    ],
+    "page_2": [
+      {
+        "id": 6,
+        "title": "Leave Policy",
+        "description": "Employees receive 1 day of Paid Leave ( PL ) per month. Your PL benefit begins after successfully completing the probation period. It will be not carried forward to next month. If an employee does not use his/her PL, the PL will be considered as a bonus and will be added to the current month’s salary."
+      },
+      {
+        "id": 7,
+        "title": "Client Policy ",
+        "description": "Confidential information of client can’t be shared or used for personal reason."
+      },
+      {
+        "id": 8,
+        "title": "Internet Use Policy",
+        "description": "While downloading large files for the project inform the related admin as it may slow down speed for other users. Admin will provide you another resource for downloading if possible."
+      },
+      {
+        "id": 9,
+        "title": "Attendance Policy",
+        "description": "The employee must notify superiors for late arrival.The employee should maintain Ontime ( Arrival on Time ) above 85%. Employee Ontime will be considered in employee performance appraisal."
+      }
+    ],
+    "page_3": [
+      {
+        "id": 10,
+        "title": "Instant Messaging",
+        "description": "Kindly keep your Skype, Emails, Slack, and all messaging-related application open during working hours (should be closed during time-tracking of any project).Also, check your email box frequently to get updates from your superior or management."
+      },
+      {
+        "id": 11,
+        "title": "Daily Tasks Update",
+        "description": "Kindly keep your Skype, Emails, Slack, and all messaging-related application open during working hours (should be closed during time-tracking of any project).Also, check your email box frequently to get updates from your superior or management."
+      },
+      {
+        "id": 12,
+        "title": "Work from Home Policy",
+        "description": "The company Work From Home policy applies to all our employees who have been granted permission from management."
+      },
+      {
+        "id": 13,
+        "title": "Employee Resignation and Termination",
+        "description": "Here we outline steps we will take to address employee misconduct. We want to give employees a chance to correct their behavior when possible and assist them in doing so. We also want to ensure that we thoroughly investigate and handle serious offenses.."
+      }
+    ],
+    "next": [
+      {
+        "id": 14,
+        "title": "Instant Messaging",
+        "description": "Kindly keep your Skype, Emails, Slack, and all messaging-related application open during working hours (should be closed during time-tracking of any project).Also, check your email box frequently to get updates from your superior or management."
+      }
+    ]
+  },
+  "roles": {
+    "label": ["Previous", 1, 2, 3, "Next"],
+    "page_1": [
+      {
+        "roleId": 1,
+        "roleName": "Super admin"
+      },
+      {
+        "roleId": 2,
+        "roleName": "Manager"
+      },
+      {
+        "roleId": 3,
+        "roleName": "Customer"
+      },
+      {
+        "roleId": 4,
+        "roleName": "Employee"
+      }
+    ],
+    "page_2": [
+      {
+        "roleId": 5,
+        "roleName": "HR"
+      },
+      {
+        "roleId": 6,
+        "roleName": "React js developer"
+      },
+      {
+        "roleId": 7,
+        "roleName": "BDE"
+      }
+    ],
+    "page_3": [
+      {
+        "roleId": 8,
+        "roleName": "Wordpress"
+      },
+      {
+        "roleId": 9,
+        "roleName": "Web designer"
+      },
+      {
+        "roleId": 10,
+        "roleName": "QA"
+      }
+    ],
+    "next": [
+      {
+        "name": "No more"
+      }
+    ]
+  },
+  "permissions": {
+    "label": ["Previous", 1, 2, 3, "Next"],
+    "page_1": [
+      {
+        "permissionId": 1,
+        "permissionName": "Add user"
+      },
+      {
+        "permissionId": 2,
+        "permissionName": "Edit user"
+      },
+      {
+        "permissionId": 3,
+        "permissionName": "Delete user"
+      },
+      {
+        "permissionId": 4,
+        "permissionName": "User list"
+      }
+    ],
+    "page_2": [
+      {
+        "permissionId": 5,
+        "permissionName": "Roles"
+      },
+      {
+        "permissionId": 6,
+        "permissionName": "Add roles"
+      },
+      {
+        "permissionId": 7,
+        "permissionName": "edit roles"
+      }
+    ],
+    "page_3": [
+      {
+        "permissionId": 8,
+        "permissionName": "add policy"
+      },
+      {
+        "permissionId": 9,
+        "permissionName": "Policy"
+      },
+      {
+        "permissionId": 10,
+        "permissionName": "Edit policy"
+      }
+    ],
+    "next": [
+      {
+        "name": "No more"
+      }
+    ]
+  },
+
+  "users": {
+    "label": ["Previous", 1, 2, 3, "Next"],
+    "page_1": [
+      {
+        "id": 1,
+        "name": "test",
+        "avatar": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-06.jpg",
+        "email": "test@getnada.com",
+        "role": "manager",
+        "last_login": "YesterDay"
+      },
+      {
+        "id": 2,
+        "name": "test2",
+        "avatar": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg",
+        "email": "test2@getnada.com",
+        "role": "Admin",
+        "last_login": "YesterDay"
+      },
+      {
+        "id": 3,
+        "name": "test3",
+        "avatar": "https://petapixel.com/assets/uploads/2019/02/download-2-800x800.jpeg",
+        "email": "test3@getnada.com",
+        "role": "Employee",
+        "last_login": "Today"
+      }
+    ],
+    "page_2": [
+      {
+        "id": 4,
+        "name": "testFour",
+        "avatar": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-06.jpg",
+        "email": "testfour@getnada.com",
+        "role": "employee",
+        "last_login": "Today"
+      },
+      {
+        "id": 5,
+        "name": "testFive",
+        "avatar": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg",
+        "email": "testFive@getnada.com",
+        "role": "Customer",
+        "last_login": "YesterDay"
+      },
+      {
+        "id": 6,
+        "name": "testSix",
+        "avatar": "https://petapixel.com/assets/uploads/2019/02/download-2-800x800.jpeg",
+        "email": "testSix@getnada.com",
+        "role": "demo",
+        "last_login": "Today"
+      }
+    ],
+    "page_3": [
+      {
+        "id": 7,
+        "name": "testSeven",
+        "avatar": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-06.jpg",
+        "email": "testSeven@getnada.com",
+        "role": "employee",
+        "last_login": "Today"
+      },
+      {
+        "id": 5,
+        "name": "testEight",
+        "avatar": "https://static01.nyt.com/newsgraphics/2020/11/12/fake-people/4b806cf591a8a76adfc88d19e90c8c634345bf3d/fallbacks/mobile-05.jpg",
+        "email": "testEight@getnada.com",
+        "role": "Customer",
+        "last_login": "YesterDay"
+      },
+      {
+        "id": 6,
+        "name": "testNine",
+        "avatar": "https://petapixel.com/assets/uploads/2019/02/download-2-800x800.jpeg",
+        "email": "testNine@getnada.com",
+        "role": "demo",
+        "last_login": "Today"
+      }
+    ],
+    "next": [
+      {
+        "name": "No more"
+      }
+    ]
+  }
+}

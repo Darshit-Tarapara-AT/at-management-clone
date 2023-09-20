@@ -1,0 +1,11 @@
+{
+    "policy": {
+        "status":[{
+            "active":"Active"
+        },
+        {
+            "inactive":"In active"
+        }
+    ]
+    }
+}

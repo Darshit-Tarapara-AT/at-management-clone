@@ -1,0 +1,19 @@
+.date-input {
+  position: relative;
+  background: url('/_metronic/assets/image/calender.png') no-repeat;
+  background-position: center right;
+  padding-right: 10px;
+  background-position-x: 98%;
+  background-size: 30px !important;
+  background-size: contain;
+  cursor: pointer !important;
+  pointer-events: auto !important;
+}
+input, textarea {
+  position: relative;
+
+} 
+.plus-icon-container {
+  font-size: 22px;
+  cursor: pointer;
+}  

@@ -1,0 +1,32 @@
+.site-logo  img {
+    width: auto;
+    height: auto;
+    max-width: 210px;
+    object-fit: cover;
+}
+.btn.btn-primary {
+    transition: all 1s;
+}
+body .btn.btn-primary:not(.btn-active):hover {
+    background: #07c7bc !important;
+}
+a:hover,
+a.link-primary:hover {
+    color: #07c7bc !important;
+}
+.invalid-feedback {
+    display: block;
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #b02a37;
+}
+@media screen and (max-width: 374px) {
+    .sign-form {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    .sign-form > div {
+        padding: 3rem !important;
+    }
+}

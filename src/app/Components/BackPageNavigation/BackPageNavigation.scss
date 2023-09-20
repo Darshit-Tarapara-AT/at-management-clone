@@ -1,0 +1,11 @@
+.backButton {
+  color: black;
+  margin-right: 9px;
+  i {
+    font-size: 24px;
+    color: black;
+  }
+  &:hover {
+    color: rgb(78, 74, 74);
+  }
+}

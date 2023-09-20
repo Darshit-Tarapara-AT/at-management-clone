@@ -1,0 +1,10 @@
+.filter-option-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .selected-block {
+    width: 200px;
+    margin: 0px 10px;
+  }
+}

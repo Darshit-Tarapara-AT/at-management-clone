@@ -1,0 +1,130 @@
+{
+    "performance.selectProject": [
+        {
+            "projectOne": "project 1"
+        },
+        {
+            "projectTwo": "project 2"
+        },
+        {
+            "projectThree": "project 3"
+        }
+        ],
+        "performance.selectClient" : [
+        {
+            "clientOne": "client 1"
+        },
+        {
+            "clientTwo": "client 2"
+        },
+        {
+            "clientThree": "client 3"
+        }
+        ],
+        "performance.selectUser" : [
+        {
+            "userOne": "user 1"
+        },
+        {
+            "userTwo": "user 2"
+        },
+        {
+            "userThree": "user 3"
+        }
+        ],
+        "performance.projectType" : [
+        {
+            "projectOne": "project 1"
+        },
+        {
+            "projectTwo": "project 2"
+        },
+        {
+            "projectThree": "project 3"
+        }
+        ],
+        "performance.projectStatus" : [
+        {
+            "inHouse": "In House"
+        },
+        {
+            "active": "Active"
+        }
+        ],
+        "performance.isBillable" : [
+        {
+            "isBillable": "Is Billable"
+        },
+        {
+            "billable": "Billable"
+        },
+        {
+            "nonBillable": "Non Billable"
+        }
+    ],
+        "performance":[
+        {
+            "user":"Naruto",
+            "totalEstimatedTime": "37 Hours",
+            "totalTimeTaken": "37 Hours",
+            "project":"Agreem Management",
+            "client":"Agreem Technologies",
+            "estimatedTime":"9 Hours",
+            "timeTaken":"6 Hours"
+        },
+        {
+            "user":"",
+            "totalEstimatedTime": "",
+            "totalTimeTaken": "",
+            "project":"Agreem Management",
+            "client":"Agreem Technologies",
+            "estimatedTime":"9 Hours",
+            "timeTaken":"6 Hours"
+        },
+        {
+            "user":"luffy",
+            "totalEstimatedTime": "27 Hours",
+            "totalTimeTaken": "37 Hours",
+            "project":"Agreem Management",
+            "client":"Agreem Technologies",
+            "estimatedTime":"9 Hours",
+            "timeTaken":"6 Hours"
+        },
+        {
+            "user":"",
+            "totalEstimatedTime": "",
+            "totalTimeTaken": "",
+            "project":"Agreem Management",
+            "client":"Agreem Technologies",
+            "estimatedTime":"9 Hours",
+            "timeTaken":"6 Hours"
+        },
+        {
+            "user":"Total Hours",
+            "totalHours":"Total Hours",
+            "estimatedTime":"90 Hours",
+            "timeTaken":"60 Hours"
+        }
+    ],
+    "performance.user":[
+        {
+            "project":"Agreem Management",
+            "client":"Agreem Technologies",
+            "estimatedTime":"9 Hours",
+            "timeTaken":"6 Hours"
+        },
+        {
+
+            "project":"Agreem Management",
+            "client":"Agreem Technologies",
+            "estimatedTime":"9 Hours",
+            "timeTaken":"6 Hours"
+        },
+        {
+            "project":"Total Hours",
+            "estimatedTime":"90 Hours",
+            "timeTaken":"60 Hours"
+        }
+    ]
+
+}

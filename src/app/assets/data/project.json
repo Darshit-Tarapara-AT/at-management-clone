@@ -1,0 +1,347 @@
+{
+    "project.projectStatus": [
+        {
+            "waitingToStart": "Waiting To Start"
+        },
+        {
+            "inProgress": "In Progress"
+        },
+        {
+            "onHold": "On Hold"
+        },
+        {
+            "completedFromOurSide": "Completed From Our Side"
+        },
+        {
+            "completed": "Completed"
+        },
+        {
+            "changesOnLiveSite": "Changes On Live Site"
+        }
+    ],
+    "project.clientType": [
+        {
+            "production": "Production"
+        },
+        {
+            "inHouse": "In House"
+        }
+    ],
+    "project.status": [
+        {
+            "active": "Active"
+        },
+        {
+            "archive": "Archive"
+        }
+    ],
+    "project.industries": [
+        {
+            "finance": "Finance"
+        },
+        {
+            "banking": "Banking"
+        },
+        {
+            "health": "Health"
+        },
+        {
+            "defense": "Defense"
+        },
+        {
+            "supplyChain": "Supply Chain"
+        },
+        {
+            "logistics": "Logistics"
+        },
+        {
+            "healthCare": "Health Care"
+        },
+        {
+            "hospitality": "Hospitality"
+        },
+        {
+            "education": "Education"
+        },
+        {
+            "retail": "Retail"
+        },
+        {
+            "sports": "Sports"
+        },
+        {
+            "oilAndNaturalGas": "Oil And Natural Gas"
+        },
+        {
+            "lawEnforcement": "Law Enforcement"
+        },
+        {
+            "realEstate": "Real Estate"
+        },
+        {
+            "travelAndTourism": "Travel & Tourism"
+        },
+        {
+            "banking": "Banking"
+        },
+        {
+            "finance": "Finance"
+        },
+        {
+            "funeral": "Funeral"
+        },
+        {
+            "ngo": "NGO"
+        },
+        {
+            "interiorDesign": "Interior Design"
+        },
+        {
+            "manufacturer": "Manufacturer"
+        },
+        {
+            "agriculture": "Agriculture"
+        },
+        {
+            "employeeManagement": "Employee Management"
+        },
+        {
+            "attorney": "Attorney"
+        },
+        {
+            "onlineMarketing": "Online Marketing"
+        },
+        {
+            "fashion": "Fashion"
+        },
+        {
+            "entertainment": "Entertainment"
+        }
+    ],
+    "project.projectType": [
+        {
+            "webPortal": "Web Portal"
+        },
+        {
+            "nativeMobileApp": "Native Mobile App"
+        },
+        {
+            "hybridMobileApp": "Hybrid Mobile App"
+        },
+        {
+            "website": "Website"
+        }
+    ],
+    "project.billingType": [
+        {
+            "hourly": "Hourly"
+        },
+        {
+            "monthly": "Monthly"
+        },
+        {
+            "fixedCost": "Fixed Cost"
+        }
+    ],
+    "project.technologies": [
+        {
+            "html": "HTML"
+        },
+        {
+            "css": "CSS"
+        },
+        {
+            "php": "PHP"
+        },
+        {
+            "javaScript": "JavaScript"
+        },
+        {
+            "jQuery": "JQuery"
+        },
+        {
+            "react": "React"
+        },
+        {
+            "reactNative": "React Native"
+        },
+        {
+            "codeIgniter": "Code Igniter"
+        },
+        {
+            "laravel": "Laravel"
+        },
+        {
+            "wordPress": "WordPress"
+        },
+        {
+            "wooCommerce": "Woo Commerce"
+        },
+        {
+            "shopify": "Shopify"
+        },
+        {
+            "magento": "Magento"
+        },
+        {
+            "android": "Android"
+        },
+        {
+            "ios": "IOS"
+        },
+        {
+            "nodeJs": "Node.js"
+        },
+        {
+            "angularJs": "Angular.js"
+        },
+        {
+            "reactJs": "React.js"
+        },
+        {
+            "yii": "YII"
+        },
+        {
+            "cakePhp": "Cake PHP"
+        },
+        {
+            "scss": "SCSS"
+        },
+        {
+            "wpBakeryVisualComposer": "WPBakery Visual Composer"
+        },
+        {
+            "elementor": "Elementor"
+        },
+        {
+            "wordPressSalientTheme": "WordPress - Salient Theme"
+        },
+        {
+            "wordPressWPBakeryPageBuilder": "WordPress - WPBakery Page Builder"
+        }
+    ],
+    "project.tools": [
+        {
+            "github": "Github"
+        },
+        {
+            "vsCode": "VS Code"
+        },
+        {
+            "slack": "Slack"
+        }
+    ],
+    "project.tags": [
+        {
+            "tag1": "Tag1"
+        },
+        {
+            "tag2": "Tag2"
+        },
+        {
+            "tag3": "Tag3"
+        },
+        {
+            "tag4": "Tag4"
+        },
+        {
+            "tag5": "Tag5"
+        }
+    ],
+    "project": [
+        {
+          "id": 1,
+          "name": "AT-Management",
+          "shortName": "ATM",
+          "takenHours": 260,
+          "client": "james",
+          "estimationHours": 240,
+          "projectManager": "Bhavik Gajera",
+          "technologies" :"Wordpress",
+          "team": ["Darshit", "yash"],
+          "progressStatus": "In progress",
+          "clientType": "In house",
+          "billingType": "monthly",
+          "status": "active",
+         "slackURL": "www",
+          "logo": "https://www.themeraider.com/wp-content/uploads/2016/05/feat-may-28-1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Google Cloud",
+          "shortName": "GOC",
+          "client": "john",
+          "takenHours" : 160,
+          "estimationHours": 260,
+          "technologies" :"React",
+          "projectManager": "Bhavik Gajera",
+          "team": ["Darshit", "yash"],
+          "progressStatus": "On hold",
+          "clientType": "production",
+          "billingType": "monthly",
+          "status": "active",
+          "slackURL": "www",
+          "logo": "https://c4.wallpaperflare.com/wallpaper/185/674/342/1920x1080-px-abstract-art-colorful-colors-design-illustration-light-theme-nature-close-up-hd-art-wallpaper-preview.jpg"
+        }
+      ],
+     "project.taskSummary" : [
+        {
+            "title": "Active",
+            "value": 20,
+            "className": "bg-primary"
+        },
+        {
+            "title": "Completed",
+            "value": 50,
+            "className": "bg-success"
+        },
+        {
+            "title": "OverDue",
+            "value": 10,
+            "className": "bg-danger"
+        },
+        {
+            "title": "Yet To Start",
+            "value": 50,
+            "className": "bg-gray"
+        }
+    ],
+    "project.roadMap" : [
+        {
+            "html": "HTML"
+        },
+        {
+            "CSS": "CSS"
+        },
+        {
+            "PHP": "PHP"
+        },
+        {
+            "javaScript": "JavaScript"
+        }
+    ],
+    "project.contibutors": [
+        {
+            "name": "Emma Smith",
+            "taskStatus": "8 Pending & 97 Completed Tasks",
+            "value": 8,
+            "url" : "https://at-management-html.vercel.app/assets/media/avatars/300-6.jpg"
+        },
+        {
+            "name": "Melody Macy",
+            "taskStatus": "5 Pending & 84 Completed",
+            "value": 5,
+            "url": "-"
+        },
+        {
+            "name": " Max Smith",
+            "taskStatus": "6 Pending & 84 Completed",
+            "value": 4
+        },
+        {
+            "name": "Sean Bean",
+            "taskStatus": "8 Pending & 88 Completed",
+            "value": 9
+        }
+    ]
+}

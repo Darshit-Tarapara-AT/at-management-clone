@@ -1,0 +1,106 @@
+{
+    "lead.status" : [
+        {
+            "newLead":"New Lead"
+        },
+        {
+            "needToReplyToOldLead":"Need to reply to old lead"
+        },
+        {
+            "repliedToClient":"Replied to client"
+        },
+        {
+            "clientMeetingFixed":"Client Meeting fixed"
+        },
+        {
+            "clientMeetingDone":"Client Meeting done"
+        },
+        {
+            "leadAssessmentTest":"Lead Assessment Test"
+        },
+        {
+            "confirmed":"Project Confirmed"
+        },
+        {
+            "quotePending  ":"Quote Pending"
+        },
+        {
+            "futureLead  ":"Future Lead"
+        },
+        {
+            "quoteProvided":"Quote Provided"
+        },
+        {
+            "waitingForSirReply":"Waiting for Sir's Reply"
+        },
+        {
+            "pending":"Pending"
+        },
+        {
+            "replayBack":"Replay back"
+        },
+        {
+            "cancelled":"cancelled"
+        },
+        {
+            "onHold":"On Hold"
+        },
+        {
+            "followUp":"Follow Up"
+        },
+        {
+            "leadCancelled":"Lead Cancelled"
+        },
+        {
+            "waitingForTheClientReply":"Waiting for the client reply"
+        }
+    ],
+    "lead.regularContactSource" : [
+        {
+            "gmail" :"Gmail"
+        },
+        {
+            "linkedIn" :"LinkedIn"
+        },
+        {
+            "upWork" :"UpWork"
+        }
+    ],
+    "lead.firstContactSource" : [
+        {
+            "gmail":"Gmail"
+        },
+        {
+            "linkedIn" :"Linked In"
+        },
+        {
+            "upWork" :"UpWork"
+        }
+    ],
+    "lead.account" : [
+        {
+            "at": "AT"
+        },
+        {
+            "akash": "Akash"
+        },
+        {
+            "bhavik": "Bhavik"
+        },{
+            "jitendra": "Jitendra"
+        }
+    ],
+    "lead.position" : [
+        {
+            "react": "React"
+        },
+        {
+            "wordPress": "WordPress"
+        },
+        {
+            "seo": "SEO"
+        },{
+            "laravel": "Laravel"
+        }
+    ]
+}

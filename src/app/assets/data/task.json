@@ -1,0 +1,96 @@
+{
+  "task.billable": [
+    {
+      "yes": "Yes"
+    },
+    {
+      "no": "No"
+    }
+  ],
+  "task.parentTask" : [
+    {
+      "yes": "Yes"
+    },
+    {
+      "no": "No"
+    }
+  ],
+"task.stage": [
+  {
+    "backlog": "Backlog"
+  },
+  {
+    "readyForWork": "Ready For Work"
+  },
+  {
+    "inWorking": "In Working"
+  },
+  {
+    "onHold": "On Hold"
+  },
+  {
+    "readyToQa": "Ready To QA"
+  },
+  {
+    "cancelled": "Cancelled"
+  },
+  {
+    "completed": "Completed"
+  }
+],
+  "task.status": [
+    {
+      "readyToStart": "Ready to Start"
+    },
+    {
+      "pending": "Pending"
+    },
+    {
+      "readyToQA": "Ready to QA"
+    },
+    {
+      "onHold": "On Hold"
+    },
+    {
+      "inProgress": "In Progress"
+    },
+    {
+      "cancelled": "Cancelled"
+    },
+    {
+      "completed": "Completed"
+    }
+  ],
+  "task.priority": [
+    {
+      "low": "Low"
+    },
+    {
+      "normal": "Normal"
+    },
+    {
+      "high": "High"
+    },
+    {
+      "urgent": "Urgent"
+    }
+  ],
+  "task.type": [
+    {
+      "newTask": "New Task"
+    },
+    {
+      "qa": "QA"
+    },
+    {
+      "bug": "Bug"
+    },
+
+    {
+      "research": "Research"
+    },
+    {
+      "management": "Management"
+    }
+  ]
+}

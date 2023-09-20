@@ -1,0 +1,23 @@
+{
+    "taskentry" : [
+        {
+            "no": "1",
+            "start_time": "10:00 AM",
+            "end_time": "12:00 AM",
+            "project": "Project Title",
+            "tasks":"Tasks"
+          },
+          {
+            "date": "24th oct 2023",
+            "start_time": "10 AM",
+            "end_time": "12 AM",
+            "status": "Completed"
+          },
+          {
+            "date": "24th oct 2023",
+            "start_time": "10 AM ",
+            "end_time": "12 AM",
+            "status": "Rejected"
+          }
+    ]
+}

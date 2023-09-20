@@ -1,0 +1,16 @@
+.timer-icon {
+  font-size: 1.5rem;
+  color: #f5a623;
+  margin-right: 0.5rem;
+}
+.timer-input {
+  background: url('/_metronic/assets/image/timerIcon.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 10px;
+  background-size: 30px;
+  cursor: pointer !important;
+
+  pointer-events: auto !important;
+  background-position: right 10px center;
+}

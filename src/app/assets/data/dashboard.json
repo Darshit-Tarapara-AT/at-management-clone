@@ -1,0 +1,97 @@
+{
+    "dashboard.recentTasks": [
+        {
+            "task":"Task Name",
+            "technology":"Project Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "Action":"start"
+        },
+        {
+            "task":"Task Name",
+            "technology":"Project Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "Action":"start"
+        },
+        {
+            "task":"Task Name",
+            "technology":"Project Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "Action":"start"
+        },
+        {
+            "task":"Task Name",
+            "technology":"Project Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "Action":"start"
+        }
+    ],
+    "dashboard.upcomingBirthday":[
+        {
+            "name":"Name",
+            "date":"10 June  2023",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg"
+        },
+        {
+            "name":"Name",
+            "date":"10 June  2023",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg"
+        },
+        {
+            "name":"Name",
+            "date":"10 June  2023",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg"
+        },
+        {
+            "name":"Name",
+            "date":"10 June  2023",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg"
+        }
+    ],
+    "dashboard.upcomingWorkAnniversary": [
+        {
+            "name": "Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "date":"10 June  2023"
+        },
+        {
+            "name": "Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "date":"10 June  2023"
+        },
+        {
+            "name": "Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "date":"10 June  2023"
+        },
+        {
+            "name": "Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "date":"10 June  2023"
+        }
+    ],
+    "dashboard.allOnlineUser": [
+        {
+            "name": "Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "time": "9:38:am"
+        },
+        {
+            "name": "Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "date":"10 June  2023",
+            "time":"9:38:am"
+        },
+        {
+            "name": "Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "date":"10 June  2023",
+            "time":"9:38:am"
+        },
+        {
+            "name": "Name",
+            "image":"https://at-management-html.vercel.app/assets/media/avatars/300-3.jpg",
+            "date":"10 June  2023",
+            "time":"9:38:am"
+        }
+    ]
+}

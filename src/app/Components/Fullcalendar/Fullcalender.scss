@@ -1,0 +1,37 @@
+.fc-dayGridMonth-button, .fc-timeGridWeek-button, .fc-timeGridDay-button, .fc-today-button {
+    text-transform: capitalize;
+}
+.fc-dayGridMonth-button:hover, .fc-timeGridWeek-button:hover, .fc-timeGridDay-button:hover, .fc-today-button:hover {
+  background:  #009ef7 !important;
+  color: white !important;
+}
+
+.fc .fc-bg-event {
+    opacity: 1;
+
+}
+.title {
+    background: #fff;
+    position: absolute;
+    width:100%;
+    cursor: pointer;
+    font-family: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif;
+    top: 30px;
+    color: black;
+    text-transform: capitalize;
+}
+.hiddenEvent{display: none !important;}
+.fc-other-month .fc-day-number { display:none  !important;}
+
+td.fc-other-month .fc-day-future , .fc-day-other{
+     visibility: hidden;
+}
+.blank-event-border {
+    display: none;
+}
+.hide-line {
+    display: none;
+}
+.fc {
+    transform: translate3d(0px, 0px, 0px) !important;
+}
